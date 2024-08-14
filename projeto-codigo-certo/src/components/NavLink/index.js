@@ -9,7 +9,7 @@ const NavLink = () => {
                     <Link to='/'>Home</Link>
                 </li>
                 <li className={styles.lineLink}>
-                    <Link to='/sobre-mim'>About</Link>
+                    <Link to='/entre-em-contato'>Entre em contato</Link>
                 </li>
             </ul>
         </nav>

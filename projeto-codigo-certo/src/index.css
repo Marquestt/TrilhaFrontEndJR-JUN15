@@ -1,3 +1,8 @@
+* {
+  --cor-principal: #000000;
+  --cor-destaque: #e53939;
+  --cor-padrao: #ffffff;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

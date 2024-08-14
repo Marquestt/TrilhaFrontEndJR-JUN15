@@ -1,3 +1,4 @@
+import Footer from 'components/Footer';
 import Header from 'components/Header';
 import Home from 'pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -9,6 +10,7 @@ const AppRoutes = () => {
             <Routes>
                 <Route path='/' element={<Home />}></Route>
             </Routes>
+            <Footer/>
         </BrowserRouter>
     )
 }

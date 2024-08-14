@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--cor-destaque);
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 1.5rem;
+    border-top: .2rem solid var(--cor-principal);
+}
+
+.footer h3 {
+    color: var(--cor-padrao);
+}

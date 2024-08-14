@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container div h2 {
+    border-bottom: .2rem dotted var(--cor-destaque);
+}
+
+.container div img {
+    max-width: 60%;
+}

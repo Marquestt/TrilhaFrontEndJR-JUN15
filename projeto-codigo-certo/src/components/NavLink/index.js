@@ -4,12 +4,12 @@ import styles from './NavLink.module.css'
 const NavLink = () => {
     return(
         <nav className={styles.nav}>
-            <ul className={styles.listLink}>
-                <li className={styles.lineLink}>
-                    <Link to='/'>Home</Link>
+            <ul>
+                <li>
+                    <Link to='/' className={styles.link}>Home</Link>
                 </li>
-                <li className={styles.lineLink}>
-                    <Link to='/entre-em-contato'>Entre em contato</Link>
+                <li>
+                    <Link to='/entre-em-contato' className={styles.link}>Entre em contato</Link>
                 </li>
             </ul>
         </nav>

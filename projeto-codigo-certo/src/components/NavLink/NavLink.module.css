@@ -1,5 +1,14 @@
-.listLink {
+.nav ul {
     display: flex;
     list-style: none;
     gap: 1rem;
+}
+
+.link {
+    color: var(--cor-padrao);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--cor-principal);
 }

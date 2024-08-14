@@ -1,6 +1,12 @@
 .header {
+    background-color: var(--cor-destaque);
     display: flex;
     justify-content: space-between;
-    margin: .5rem 1.5rem;
+    padding: .5rem 1.5rem;
     align-items: center;
+    border-bottom: .2rem solid var(--cor-principal);
+}
+
+.header h1 {
+    color: var(--cor-padrao);
 }

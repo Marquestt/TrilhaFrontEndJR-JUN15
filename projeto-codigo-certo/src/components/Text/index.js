@@ -6,9 +6,28 @@ const Text = () => {
         <article className={styles.container}>
             <div>
                 <h2>Sobre mim:</h2>
-                <p>
-                    Teste
-                </p>
+                <div>
+                    <h3>Nome:</h3>
+                    <p>
+                        Thatyane Carvalho Marques.
+                    </p>
+                    <h3>Idade:</h3>
+                    <p>
+                        26 anos.
+                    </p>
+                    <h3>Sobre mim:</h3>
+                    <p>
+                        Teste
+                    </p>
+                    <h3>Gostos pessoais:</h3>
+                    <p>
+                        Teste
+                    </p>
+                    <h3>Motivações</h3>
+                    <p>
+                        Teste
+                    </p>
+                </div>
             </div>
             <div>
                 <img src={imagemProfile} alt='Imagem de Thatyane Marques sorrindo'/>

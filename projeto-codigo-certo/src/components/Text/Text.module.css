@@ -7,6 +7,23 @@
     border-bottom: .2rem dotted var(--cor-destaque);
 }
 
+/* .container div div {
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+} */
+
+/* .container div h3 {
+
+} */
+
+.container div p {
+    font-size: .85rem;
+}
+
 .container div img {
     max-width: 60%;
 }

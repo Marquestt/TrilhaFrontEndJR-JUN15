@@ -4,7 +4,7 @@ import imagemProfile from '../imagens/profile.jpg'
 const Text = () => {
     return(
         <article className={styles.container}>
-            <div>
+            <div className={styles.containerText}>
                 <h2>Sobre mim:</h2>
                 <div>
                     <h3>Nome:</h3>
@@ -29,7 +29,7 @@ const Text = () => {
                     </p>
                 </div>
             </div>
-            <div>
+            <div className={styles.containerImagem}>
                 <img src={imagemProfile} alt='Imagem de Thatyane Marques sorrindo'/>
             </div>
         </article>

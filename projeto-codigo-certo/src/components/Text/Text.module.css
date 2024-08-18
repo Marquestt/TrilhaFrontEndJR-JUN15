@@ -3,27 +3,33 @@
     flex-direction: row-reverse;
 }
 
-.container div h2 {
-    border-bottom: .2rem dotted var(--cor-destaque);
+.containerText, .containerImagem {
+    width: 50%;
 }
 
-/* .container div div {
+.container .containerText h2 {
+    border-bottom: .2rem dotted var(--cor-destaque);
+    max-width: 18%;
+}
+
+.container .containerText div {
     align-items: center;
-    gap: 3rem;
+    gap: .5rem;
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 calc(50% - 10px);
     max-width: calc(50% - 10px);
-} */
+    max-width: 60%;
+}
 
-/* .container div h3 {
+.container .containerText h3 {
+    text-transform: uppercase;
+}
 
-} */
-
-.container div p {
+.container .containerText p {
     font-size: .85rem;
 }
 
-.container div img {
-    max-width: 60%;
+.container .containerImagem img {
+    max-width: 80%;
 }

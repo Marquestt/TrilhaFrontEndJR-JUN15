@@ -2,7 +2,7 @@
     background-color: var(--cor-destaque);
     display: flex;
     justify-content: space-between;
-    padding: .5rem 1.5rem;
+    padding: .5rem 2rem;
     align-items: center;
     border-bottom: .2rem solid var(--cor-principal);
     width: 100%;
